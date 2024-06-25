@@ -1,0 +1,58 @@
+updateUsers:
+    {
+        "email": "auto_syvlg-test@yopmail.com",
+        "password": "Bharath@12345",
+        "phoneNumber": "8693976454",
+        "firstName": "Iron",
+        "lastName": "hills",
+        "iamAssociateCode": "",
+        "termsApproved": true,
+        "emailOptin": true,
+        "smsOptin": true,
+        "cid": "80000199384",
+        "token": "f2ee7e7eebfeb6325a24a0226994fc90c7c37127e1ed3715ed41651fd6a69ccd",
+        "shopperToken": "Mq5moTRfAmZqo3Jc4K7SYeKtSJzVmzSYf1L08mr48hGp32neNhSXwLsvtuT4m8eRuyKq8fV7ZM9H8exXX87dfA"
+    }
+
+updateUsers1:
+  {
+          "email": "bharathshree3333@gmail.com",
+          "password": "Bharath@12345",
+          "phoneNumber": "9234873433",
+          "firstName": "Iron",
+          "lastName": "hills",
+          "iamAssociateCode": "",
+          "termsApproved": true,
+          "emailOptin": true,
+          "smsOptin": true,
+          "cid": "600000046772342",
+          "token": "3c9ab2d3327a93f8bae3de79ff8c21d5d4ec290cb5a7326c3f8133b5290efca6",
+
+  }
+
+updateUsers2:
+  {
+    "email": " ",
+    "password": "Bharath@12345",
+    "phoneNumber": "9234873433",
+    "firstName": "Iron",
+    "lastName": "hills",
+    "iamAssociateCode": "",
+    "termsApproved": true,
+    "emailOptin": true,
+    "smsOptin": true,
+    "cid": "600000046772342",
+    "token": "3c9ab2d3327a93f8bae3de79ff8c21d5d4ec290cb5a7326c3f8133b5290efca6",
+    "shopperToken": "Mq5moTRfAmZqo3Jc4K7SYaep1ZhXWzDq1_GA41650Kb_1r49eR-yNI7usIWM3XB88YKV4T-GhIZy2__dbWnpzA"
+  }
+
+updateUsers3:
+  {
+    "firstName": "User",
+    "lastName": "Test1",
+    "email": "devuser8989@yopmail.com",
+    "phoneNumber": "9015559604",
+    "emailOptin": true,
+    "shopperToken": "Mq5moTRfAmZqo3Jc4K7SYRyMNmOi1rNWxR6EBh4DfdI-boaSr7aDTrsm2wDraokj6Xp6KWl6dHcU-ErYpLx3gA",
+    "cid": "6000000467"
+  }

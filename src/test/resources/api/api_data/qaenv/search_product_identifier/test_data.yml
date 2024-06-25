@@ -1,0 +1,15 @@
+Body:
+  {
+        "offer_types": [
+              "ITEM_LEVEL_OFFER"
+        ],
+        "partner_user_id": "user-id",
+        "product_identifiers": [
+              {
+                    "type": "GTIN_14",
+                    "value": "00011111634619"
+              }
+        ],
+        "partner_audiences": [ ]
+  }
+

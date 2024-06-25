@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "emailOptin": {
+      "type": "boolean"
+    },
+    "cid": {
+      "type": "string"
+    },
+    "termsApproved": {
+      "type": "boolean"
+    },
+    "smsOptin": {
+      "type": "boolean"
+    },
+    "phoneType": {
+      "type": "string"
+    },
+    "iamAssociateCode": {
+      "type": "string"
+    },
+    "token": {
+      "type": "string"
+    },
+    "storeLocatorToken": {
+      "type": "string"
+    },
+    "storeNumber": {
+      "type": "string"
+    },
+    "shopperToken": {
+      "type": "string"
+    },
+    "associate": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "phoneNumber",
+    "email",
+    "emailOptin",
+    "cid",
+    "termsApproved",
+    "smsOptin",
+    "phoneType",
+    "iamAssociateCode",
+    "token",
+    "storeLocatorToken",
+    "storeNumber",
+    "shopperToken",
+    "associate"
+  ]
+}

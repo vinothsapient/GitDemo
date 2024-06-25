@@ -1,0 +1,12 @@
+{
+  "host_uri": "https://apifdmobiledev.familydollar.com",
+  "base_path": "/profile-exp-svc/v3/users/123/refresh-token",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "RefreshToken"
+  }
+}

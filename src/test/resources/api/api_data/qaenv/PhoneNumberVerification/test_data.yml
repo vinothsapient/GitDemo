@@ -1,0 +1,102 @@
+PhoneNumberWrongSms:
+  {
+    "email": "fd_test4@yopmail.com",
+    "password": "Test@123",
+    "phoneNumber": "9379712132",
+    "firstName": "Test",
+    "lastName": "User",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202"
+  }
+
+PhoneNumberInvalid:
+  {
+    "email": "fd_test4@yopmail.com",
+    "password": "Test@123",
+    "phoneNumber": "9379712132",
+    "firstName": "Test",
+    "lastName": "User",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202",
+    "smsCode": "2as9546"
+  }
+
+PhoneNumberBlankSms:
+  {
+    "email": "fd_test4@yopmail.com",
+    "password": "Test@123",
+    "phoneNumber": "9379712132",
+    "firstName": "Test",
+    "lastName": "User",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202",
+    "smsCode": " "
+  }
+
+PhoneNumberInvalidEmail:
+  {
+    "email": "fd_test4yopmail.com",
+    "password": "Test@123",
+    "phoneNumber": "9379712132",
+    "firstName": "Test",
+    "lastName": "User",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202",
+    "smsCode": "3454"
+  }
+
+PhoneNumberBlankEmail:
+  {
+    "email": "",
+    "password": "Test@123",
+    "phoneNumber": "9379712132",
+    "firstName": "Test",
+    "lastName": "User",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202",
+    "smsCode": "2as9546"
+  }
+
+PhoneNumberBlankPassword:
+  {
+    "email": "fd_test4@yopmail.com",
+    "password": "",
+    "phoneNumber": "9379712132",
+    "firstName": "Test",
+    "lastName": "User",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202",
+    "smsCode": "2as9546"
+  }
+
+PhoneNumberBlankFirstName:
+  {
+    "email": "fd_test4@yopmail.com",
+    "password": "Tes456",
+    "phoneNumber": "9379712132",
+    "firstName": "",
+    "lastName": "User",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202",
+    "smsCode": "2as9546"
+  }
+
+PhoneNumberBlankLastName:
+  {
+    "email": "fd_test4@yopmail.com",
+    "password": "Tes456",
+    "phoneNumber": "9379712132",
+    "firstName": "Test",
+    "lastName": "",
+    "termsApproved": true,
+    "emailOptin": true,
+    "zipcode": "23202",
+    "smsCode": "2as9546"
+  }

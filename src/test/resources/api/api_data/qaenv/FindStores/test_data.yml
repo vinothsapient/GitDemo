@@ -1,0 +1,38 @@
+zipCode:
+  {  
+    "searchValue": "23704",
+    "searchRadius": "30",
+    "filterOnStoreBopis": false
+  }
+
+location:
+  {
+    "latitude": "40.730611",
+    "longitude": "-73.935242",
+    "searchRadius": "30",
+    "filterOnStoreBopis": false
+  }
+
+emptySearchValue:
+  {
+    "searchValue": "",
+    "searchRadius": "30",
+    "filterOnStoreBopis": false
+  }
+
+emptyLatitudeLongitude:
+  {
+      "latitude": "",
+      "longitude": "",
+      "searchRadius": "30",
+      "filterOnStoreBopis": false
+  }
+
+emptySearchValueLatitudeLongitude:
+  {
+      "latitude": "",
+      "longitude": "",
+      "searchValue": "",
+      "searchRadius": "30",
+      "filterOnStoreBopis": false
+  }

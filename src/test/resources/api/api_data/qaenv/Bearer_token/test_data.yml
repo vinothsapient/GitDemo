@@ -1,0 +1,8 @@
+token Body:
+  {
+      "client_id": "C7BGKmCXOYTksuFPjbyTkMY6SOthuQIo",
+      "client_secret": "It8X37GUeEtiNtvHDJLU_6WB7ixaKh6pWVY2sISXapgUz_nAEu27A-a6J93Ce7X2",
+      "audience": "https://family-dollar.staging.ipn-api.com",
+      "grant_type": "client_credentials"
+  }
+

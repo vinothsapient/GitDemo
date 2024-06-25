@@ -1,0 +1,9 @@
+{
+  "host_uri": "https://apifdmobiledev.familydollar.com/",
+    "base_path": "cart-exp-svc/v1/cart/{cartId}/items/{itemId}?storeId=32275&zipCode=23504",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "feature": "ecomm"
+  }
+}

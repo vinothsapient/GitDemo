@@ -1,0 +1,10 @@
+user_data:
+  {
+    "bannerSlotIds": [
+      {
+        "slotId": "brand-page",
+        "maxNumberOfAds": 1
+      }
+    ],
+    "brandPageUrl" : "pepsi-test"
+  }

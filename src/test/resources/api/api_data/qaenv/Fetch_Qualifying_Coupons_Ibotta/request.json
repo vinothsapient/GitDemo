@@ -1,0 +1,15 @@
+{
+  "host_uri": "https://apifdmobiledev.familydollar.com",
+  "base_path": "/coupons-exp-svc/v2/upcs/000000490450/coupons?id={id}&cid={cid}",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "ciamuuid": "4a60756b-efd6-4455-8a04-96993ef3fd22",
+    "X-Auth-Token": "Mq5moTRfAmZqo3Jc4K7SYdzJ_K3Qd88I2EgNkHCbnSNC1",
+    "feature": "ecomm"
+
+  },
+  "request": {
+    "name": "FetchCouponsIbotta"
+  }
+}

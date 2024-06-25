@@ -1,0 +1,48 @@
+validOrderDetails:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "FD1100199",
+          "quantity": 6,
+          "deliveryOption": "bopis"
+        }
+      ],
+      "orderTotal": 9.9
+    },
+    "shippingAddress": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "country": "US",
+      "postalCode": "23504",
+      "address1": "2328 East Princess",
+      "city": "Norfolk",
+      "state": "VA",
+      "phoneNumber": "7574470301",
+      "email": "rohit.kondapaturi@publicissapient.com"
+    },
+    "billingAddress": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "country": "US",
+      "postalCode": "23504",
+      "address1": "2328 East Princess Anne Rd",
+      "city": "Norfolk",
+      "state": "VA",
+      "phoneNumber": "7574470301",
+      "email": "rohit.kondapaturi@publicissapient.com"
+    },
+    "payment":
+      {
+        "type": "creditcard",
+        "email": "abhtorne0509@yopmail.com",
+        "cvv": "123",
+        "nameOnCard": "Test Test",
+        "cardType": "visa",
+        "token": "9503344000055892",
+        "maskedPan": "411111XXXXXX1111",
+        "endMonth": "02",
+        "endYear": "2025",
+        "total": 9.9
+      }
+  }

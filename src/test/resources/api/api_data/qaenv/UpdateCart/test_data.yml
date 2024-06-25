@@ -1,0 +1,90 @@
+validUpdateCartDetails:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "FD1400702",
+          "quantity": 10,
+          "deliveryOption": "bopis"
+        }
+      ]
+    }
+  }
+
+validCartDetails:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "FD907169",
+          "quantity": 10,
+          "deliveryOption": "bopis"
+        }
+      ]
+    }
+  }
+
+qtyEqualsToZero:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "FD907169",
+          "quantity": 0,
+          "deliveryOption": "bopis"
+        }
+      ]
+    }
+  }
+
+InvalidProductId:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "ZZw007169",
+          "quantity": 10,
+          "deliveryOption": "bopis"
+        }
+      ]
+    }
+  }
+
+InvalidProductQty:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "FD907169",
+          "quantity": "ZZw007169",
+          "deliveryOption": "bopis"
+        }
+      ]
+    }
+  }
+
+EmptyDeliveryOption:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "FD907169",
+          "quantity": 10,
+          "deliveryOption": ""
+        }
+      ]
+    }
+  }
+
+EmptyProductId:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "",
+          "quantity": 10,
+          "deliveryOption": "bopis"
+        }
+      ]
+    }
+  }

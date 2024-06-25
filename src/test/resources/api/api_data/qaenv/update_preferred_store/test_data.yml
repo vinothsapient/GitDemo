@@ -1,0 +1,27 @@
+Store_data:
+  {
+    "cid": "80000199407",
+    "storeLocatorToken": "84b8fcf4a56d8b161a1bcf30908a19790f55c51b6b52320f042980b87b1b7f72",
+    "storeId": 2525
+  }
+
+Store_data1:
+  {
+    "cid": "60000004673234",
+    "storeLocatorToken": "545b3239b49c43599775006d7ffbb1c3d906ca1b2b923bdfd37b3ae97bdd8f95",
+    "storeId": 2525
+  }
+
+Store_data2:
+  {
+      "cid": "60000004673",
+      "storeLocatorToken": "545b3239b49c43599775006d7ffbb1c3d906ca1b2b923bdfd37b234243ae97bdd8f95",
+      "storeId": 2525
+  }
+
+Store_data3:
+  {
+      "cid": "",
+      "storeLocatorToken": "",
+      "storeId":
+  }

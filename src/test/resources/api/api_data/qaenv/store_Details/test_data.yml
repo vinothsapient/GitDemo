@@ -1,0 +1,32 @@
+Valid_store:
+  {
+    "searchValue": "Brooklyn"
+  }
+
+Valid_store1:
+  {
+      "latitude": -15,
+      "longitude": -200
+  }
+
+Valid_store2:
+  {
+    "latitude": -15
+  }
+
+Valid_store3:
+  {
+    "longitude": "-200"
+  }
+
+Valid_store4:
+  {
+    "searchValue": "11205-2823",
+    "searchRadius":"0.5"
+  }
+
+Valid_store5:
+    {
+      "searchValue": "new york",
+      "searchRadius": "0.5"
+    }

@@ -1,0 +1,69 @@
+{
+  "LoginDetails" :[
+    {
+      "ValidLoginDetails": {
+        "UserName": "automation.ecommerce@yopmail.com",
+        "Password": "Test@123"
+      },
+      "InValidLoginDetails": {
+        "UserName": " TestUser",
+        "Password": " TestUser"
+      },
+      "ValidPasswordWrongEmail": {
+        "UserName": "FamilyStg@yopmail.com",
+        "Password": "Test@123"
+      },
+      "ValidEmailWrongPassword": {
+        "UserName": "FamilyDollarStg@yopmail.com",
+        "Password": "TestUser"
+      },
+      "EmptyEmail": {
+        "UserName": "",
+        "Password": "Test@123"
+      },
+      "EmptyPassword": {
+        "UserName": "FamilyDollarStg@yopmail.com",
+        "Password": ""
+      },
+      "NoStoreSelectedLogin": {
+        "UserName": "auto_stg@yopmail.com",
+        "Password": "Test@123"
+      },
+      "NonVerifiedLoginDetails": {
+        "UserName": "bharatqa.maqa@yopmail.com",
+        "Password": "Test@123"
+      },
+      "OrderHistoryLoginDetails": {
+        "UserName": "order.status@yopmail.com",
+        "Password": "Test@123"
+      }
+    }
+  ],
+  "TestEmailId": [
+    {
+      "registeredEmailId": {
+        "emailId": "Test123@yopmail.com"
+      },
+      "nonRegisteredEmailId": {
+        "emailId": "nonRegsitered@yopmail.com"
+      },
+      "emailIdWithSpaces": {
+        "emailId": "   Test123@yopmail.com   "
+      },
+      "wrongEmailFormat": {
+        "emailId": "Test123@yopmail"
+      },
+      "emptyEmail": {
+        "emailId": ""
+      }
+    }
+  ],
+  "PaypalLogin" :[
+    {
+      "ValidPaypalLogin": {
+        "UserName": "sb-0n3do28549124@personal.example.com",
+        "Password": "6SD)@ih*"
+      }
+    }
+  ]
+}

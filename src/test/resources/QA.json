@@ -1,0 +1,57 @@
+{
+  "LoginDetails" :[
+    {
+      "ValidLoginDetails": {
+        "UserName": "abc123@yopmail.com",
+        "Password": "Test@123"
+      },
+      "InValidLoginDetails": {
+        "UserName": " TestUser",
+        "Password": " TestUser"
+      },
+      "ValidPasswordWrongEmail": {
+        "UserName": "bharathshree@gmail.com",
+        "Password": "Bharath@8756734"
+      },
+      "ValidEmailWrongPassword": {
+        "UserName": "bharathshree3456@gmail.com",
+        "Password": "TestUser"
+      },
+      "EmptyEmail": {
+        "UserName": "",
+        "Password": "Bharath@8756734"
+      },
+      "EmptyPassword": {
+        "UserName": "bharathshree3456@gmail.com",
+        "Password": ""
+      },
+      "NoStoreSelectedLogin": {
+        "UserName": "auto_qa@yopmail.com",
+        "Password": "Test@123"
+      },
+      "CancelledOrderLoginDetails": {
+        "UserName": "ecomm.testing@yopmail.com",
+        "Password": "Testing@1234"
+      }
+    }
+  ],
+  "TestEmailId": [
+    {
+      "registeredEmailId": {
+        "emailId": "Test123@yopmail.com"
+      },
+      "nonRegisteredEmailId": {
+        "emailId": "nonRegsitered@yopmail.com"
+      },
+      "emailIdWithSpaces": {
+        "emailId": "   Test123@yopmail.com   "
+      },
+      "wrongEmailFormat": {
+        "emailId": "Test123@yopmail"
+      },
+      "emptyEmail": {
+        "emailId": ""
+      }
+    }
+  ]
+}

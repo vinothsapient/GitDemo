@@ -1,0 +1,77 @@
+{ "android": {
+  "app": "/src/test/resources/app/app.apk",
+  "url": "http://0.0.0.0:4890/wd/hub",
+  "appActivity": "com.family_dollar_app.MainActivity",
+  "devices": [
+    {
+      "deviceName": "emulator-5554",
+      "automationName": "UIAutomator2",
+      "noReset": "True",
+      "model": "Pixel_6_Pro_API_33",
+      "browserName": "Chrome",
+      "os_version": "12.0"
+    },
+    {
+      "build": 2,
+      "deviceName": "emulator-5554",
+      "automationName": "UIAutomator2",
+      "noReset": "True",
+      "model": "Pixel_6_Pro_API_33",
+      "browserName": "Chrome",
+      "os_version": "12.0"
+    }
+  ],
+    "cloudDevices": [
+      {
+        "_comments": "this object is for Perfecto",
+        "deviceName": "RFCN104SV7B"
+      },
+      {
+        "_comments": "this object is for BrowserStack",
+        "deviceName": "Samsung Galaxy S22",
+        "os_version": "12.0"
+      }
+    ]
+  },"ios": {
+  "app": "/src/test/resources/app/app.ipa",
+  "url": "http://0.0.0.0:4723/wd/hub",
+  "devices": [
+    {
+      "build": 1,
+      "deviceName": "iPhone 14 Pro Max",
+      "automationName": "XCUITest",
+      "noReset": "True",
+      "iOSResign": "True",
+      "browserName": "Safari",
+      "os_version": "16"
+    }
+  ],
+  "cloudDevices": [
+    {
+      "_comments": "this object is for Perfecto",
+      "deviceName": "B4440E47938CA104E88F34C659CD9A4EBF991268"
+    },
+    {
+      "_comments": "this object is for BrowserStack",
+      "deviceName": "iPhone 13 Pro Max",
+      "os_version": "15.0"
+    }
+  ]
+},
+
+  "cloud": {
+    "perfecto": {
+      "url": ".perfectomobile.com/nexperience/perfectomobile/wd/hub",
+      "repositoryUrl": ".app.perfectomobile.com/repository/api/v1/artifacts",
+      "cloudName": "trial",
+      "securityToken": ""
+    },
+    "browserStack": {
+      "url": "@hub-cloud.browserstack.com/wd/hub",
+      "user": "dollartree_1tDnJ0",
+      "key": "2uRu9nxEssytsS9sD2ak",
+      "baseUrl": "https://api-cloud.browserstack.com/app-automate/upload",
+      "idleTimeout":5
+    }
+  }
+}

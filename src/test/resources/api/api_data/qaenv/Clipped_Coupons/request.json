@@ -1,0 +1,13 @@
+{
+  "host_uri": "https://apifdmobiletest.familydollar.com",
+  "base_path": "/coupons-exp-svc/v1/coupons?states=CLIPPED",
+  "header": {
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "Content-Type": "application/json",
+    "X-Auth-Token": "Mq5moTRfAmZqo3Jc4K7SYW8SIiob9VEs1oAJMt88ZPz_BPBEHQUpJmHLx-r9rJMdSKwEC9j6lWFbAn5WyBWFRg",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "Clipped_Coupons"
+  }
+}

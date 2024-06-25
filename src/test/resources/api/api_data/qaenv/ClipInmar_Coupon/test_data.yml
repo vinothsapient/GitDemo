@@ -1,0 +1,67 @@
+
+Clip_Data:
+  {
+    "action": "CLIP",
+    "mediaPropertyId": "144058",
+    "selectionToken": "10002",
+    "cid":"100"
+  }
+
+Clipwith_Invaild_Data:
+    {
+      "action": "CLIP101",
+      "mediaPropertyId": "144058",
+      "selectionToken": "10002",
+      "cid":"100"
+    }
+
+
+Clip_Ibotta:
+  {
+    "cid": "60000005649",
+    "action": "CLIP",
+    "selectionToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZ6bnBDZyJ9.eyJ3aW4iOiIwIiwidmlkIjoiOTY4MDgiLCJhbXQiOiJ7XCJjdXJyZW5jeVwiOlwiVVNEXCIsXCJtaWNyb3NcIjpcIjMwMDAwMDBcIn0iLCJtaW4iOjEsIm1heCI6MiwicmlkIjoiOTY4MiIsInJ0cCI6MSwicnN0IjozLCJpYXQiOjE2NTkwMzU0NDR9.Kz-AsHdTCEDAGIabzEJUTOxsktsMxAeB5w2TIsa_3enntFpUHJ1GX4-rrIL7kEOYJVbJuMUAY9Z43xkn-hmI_7a6JwBfbCMubTEi7R-FBpIfX6GlonaN4U_WSPNMLqkIggAdetifFoW2W0It-M41wLeuXC35vvRuIw05B-Byr9K7Q1CZ1CFX7NtS1YVYd4zO6RY7VLXqlsTGIoJWboLGyQBZviywWPiIgPuGIChETme_JR5urvCW_Vl0HRXd_jM8_Wt1ZArc68MmemkaoNrMZ0TnPctNtJMHYzxBYVwDNXD1aXDCgpPhQYMWPTG7JhO4gOj1PBOQYIOfZvzgG9ZbNg"
+  }
+
+Clip_Ibotta_In-valid_Data:
+  {
+    "action": "CLIP101",
+    "selectionToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZ6bnBDZyJ9.eyJ3aW4iOiIwIiwidmlkIjoiOTY4MDgiLCJhbXQiOiJ7XCJjdXJyZW5jeVwiOlwiVVNEXCIsXCJtaWNyb3NcIjpcIjMwMDAwMDBcIn0iLCJtaW4iOjEsIm1heCI6MiwicmlkIjoiOTY4MiIsInJ0cCI6MSwicnN0IjozLCJpYXQiOjE2NTkwMzU0NDR9.Kz-AsHdTCEDAGIabzEJUTOxsktsMxAeB5w2TIsa_3enntFpUHJ1GX4-rrIL7kEOYJVbJuMUAY9Z43xkn-hmI_7a6JwBfbCMubTEi7R-FBpIfX6GlonaN4U_WSPNMLqkIggAdetifFoW2W0It-M41wLeuXC35vvRuIw05B-Byr9K7Q1CZ1CFX7NtS1YVYd4zO6RY7VLXqlsTGIoJWboLGyQBZviywWPiIgPuGIChETme_JR5urvCW_Vl0HRXd_jM8_Wt1ZArc68MmemkaoNrMZ0TnPctNtJMHYzxBYVwDNXD1aXDCgpPhQYMWPTG7JhO4gOj1PBOQYIOfZvzgG9ZbNg",
+    "cid":"100"
+  }
+
+UnClip_Ibotta:
+  {
+    "cid":"60000005649",
+    "action":"UNCLIP",
+    "selectionToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZ6bnBDZyJ9.eyJ3aW4iOiIwIiwidmlkIjoiOTY4MDgiLCJhbXQiOiJ7XCJjdXJyZW5jeVwiOlwiVVNEXCIsXCJtaWNyb3NcIjpcIjMwMDAwMDBcIn0iLCJtaW4iOjEsIm1heCI6MiwicmlkIjoiOTY4MiIsInJ0cCI6MSwicnN0IjozLCJpYXQiOjE2NTkwMzU0NDR9.Kz-AsHdTCEDAGIabzEJUTOxsktsMxAeB5w2TIsa_3enntFpUHJ1GX4-rrIL7kEOYJVbJuMUAY9Z43xkn-hmI_7a6JwBfbCMubTEi7R-FBpIfX6GlonaN4U_WSPNMLqkIggAdetifFoW2W0It-M41wLeuXC35vvRuIw05B-Byr9K7Q1CZ1CFX7NtS1YVYd4zO6RY7VLXqlsTGIoJWboLGyQBZviywWPiIgPuGIChETme_JR5urvCW_Vl0HRXd_jM8_Wt1ZArc68MmemkaoNrMZ0TnPctNtJMHYzxBYVwDNXD1aXDCgpPhQYMWPTG7JhO4gOj1PBOQYIOfZvzgG9ZbNg"
+  }
+
+UnClip_Ibotta_In-vaild_Data:
+    {
+      "action": "UNCLIP101",
+      "selectionToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZ6bnBDZyJ9.eyJ3aW4iOiIwIiwidmlkIjoiOTY4MDgiLCJhbXQiOiJ7XCJjdXJyZW5jeVwiOlwiVVNEXCIsXCJtaWNyb3NcIjpcIjMwMDAwMDBcIn0iLCJtaW4iOjEsIm1heCI6MiwicmlkIjoiOTY4MiIsInJ0cCI6MSwicnN0IjozLCJpYXQiOjE2NTkwMzU0NDR9.Kz-AsHdTCEDAGIabzEJUTOxsktsMxAeB5w2TIsa_3enntFpUHJ1GX4-rrIL7kEOYJVbJuMUAY9Z43xkn-hmI_7a6JwBfbCMubTEi7R-FBpIfX6GlonaN4U_WSPNMLqkIggAdetifFoW2W0It-M41wLeuXC35vvRuIw05B-Byr9K7Q1CZ1CFX7NtS1YVYd4zO6RY7VLXqlsTGIoJWboLGyQBZviywWPiIgPuGIChETme_JR5urvCW_Vl0HRXd_jM8_Wt1ZArc68MmemkaoNrMZ0TnPctNtJMHYzxBYVwDNXD1aXDCgpPhQYMWPTG7JhO4gOj1PBOQYIOfZvzgG9ZbNg",
+      "cid": "100"
+    }
+
+Clip_Ibotta_Invalid_selectiontoken:
+  {
+    "cid": "60000005649",
+    "action": "CLIP",
+    "selectionToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZ6bnBDZyJ9.eyJ3aW4iOiIwIiwidmlkIjoiOTY5MjgiLCJhbXQiOiJ7XCJjdXJyZW5jeVwiOlwiVVNEXCIsXCJtaWNyb3NcIjpcIjE1MDAwMDBcIn0iLCJtaW4iOjEsIm1heCI6NSwicmlkIjoiOTgwMiIsInJ0cCI6MSwicnN0IjozLCJpYXQiOjE2NjA5Mzc1MjN9.QTk2TiAi5ACf7roTj3jNE0oW-FW73SeTqbsfZbLY_7bANC_jaZqyMpTq9Zme-U_DFq_iprC3XTRgzFG3DdgVPIQj5GZ2Rscoj_xjibJrymw7oMnoChIBzM0k9WW6i_U19arEMQ55gJmqdGMLAjyFwXy4voY0PcVn9JNpwZScjmkVFqbl3jXbCKMNSYA0jAgxdzgpcXEsxSCTHIUa3LZ_MwGhhZ0aE__gVjAUZ2NlcbZsp5z4QNECarO_a4FoE1WmENuksUTfLa-otX1zkVrRZ5Mhpc3rYyXQmNM8pI5Nl0GC08sL8sXegvVrdaXkY4crZAWFltPXhIwU9dgqJ5ezRw"
+  }
+
+Clip_Ibotta_Invalid_Cid:
+  {
+    "cid": "600000056491",
+    "action": "UNCLIP",
+    "selectionToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlZ6bnBDZyJ9.eyJ3aW4iOiIwIiwidmlkIjoiOTY4MDgiLCJhbXQiOiJ7XCJjdXJyZW5jeVwiOlwiVVNEXCIsXCJtaWNyb3NcIjpcIjMwMDAwMDBcIn0iLCJtaW4iOjEsIm1heCI6MiwicmlkIjoiOTY4MiIsInJ0cCI6MSwicnN0IjozLCJpYXQiOjE2NTkwMzU0NDR9.Kz-AsHdTCEDAGIabzEJUTOxsktsMxAeB5w2TIsa_3enntFpUHJ1GX4-rrIL7kEOYJVbJuMUAY9Z43xkn-hmI_7a6JwBfbCMubTEi7R-FBpIfX6GlonaN4U_WSPNMLqkIggAdetifFoW2W0It-M41wLeuXC35vvRuIw05B-Byr9K7Q1CZ1CFX7NtS1YVYd4zO6RY7VLXqlsTGIoJWboLGyQBZviywWPiIgPuGIChETme_JR5urvCW_Vl0HRXd_jM8_Wt1ZArc68MmemkaoNrMZ0TnPctNtJMHYzxBYVwDNXD1aXDCgpPhQYMWPTG7JhO4gOj1PBOQYIOfZvzgG9ZbNg"
+  }
+
+
+Clip_Inmar_mediaPropertyId:
+  {
+    "action": "CLIP",
+    "selectionToken": "386137",
+    "cid": 100
+  }

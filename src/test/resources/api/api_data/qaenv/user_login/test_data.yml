@@ -1,0 +1,41 @@
+User_Login:
+  {
+    "email": "bharani@yopmail.com",
+    "password": "Bharani@123"
+  }
+
+User_Login1:
+  {
+      "email": "bharathshree3423122fsf@gmail.com",
+      "password": "Bharath@143222222"
+  }
+
+User_Login2:
+  {
+      "email": "bharathshree3423122fsf@gmail.com",
+      "password": "Bharath@143222222"
+  }
+
+User_Login3:
+  {
+      email"": " ",
+      password"": "Bharath@143222222"
+  }
+
+User_Login4:
+  {
+      email"": "bharathshree3423122fsf@gmail.com",
+      password"": " "
+  }
+
+User_Login5:
+  {
+      email"": "bharathshree3",
+      password"": "Bharath@14322"
+  }
+
+
+User_Login6:
+  {
+
+  }

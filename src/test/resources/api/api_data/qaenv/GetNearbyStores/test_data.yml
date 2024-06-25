@@ -1,0 +1,87 @@
+zipCode:
+  {  
+      "storeId": "7084",
+      "latitude": null,
+      "longitude": null,
+      "searchValue": "23704",
+      "searchRadius": "30",
+      "filterOnInStock": false,
+      "filterOnStoreBopis": false
+  }
+
+state:
+  {
+    "storeId": "7084",
+    "latitude": null,
+    "longitude": null,
+    "searchValue": "VA",
+    "searchRadius": "30",
+    "filterOnInStock": false,
+    "filterOnStoreBopis": false
+  }
+
+city:
+  {
+    "storeId": "7084",
+    "latitude": null,
+    "longitude": null,
+    "searchValue": "Chesapeake",
+    "searchRadius": "30",
+    "filterOnInStock": false,
+    "filterOnStoreBopis": false
+  }
+
+validLatitudeAndLongitude:
+  {
+    "storeId": "7084",
+    "latitude": "40.730611",
+    "longitude": "-73.935242",
+    "searchValue": "",
+    "searchRadius": "30",
+    "filterOnInStock": false,
+    "filterOnStoreBopis": false
+  }
+
+emptyStoreId:
+  {
+    "storeId": "",
+    "latitude": null,
+    "longitude": null,
+    "searchValue": "23704",
+    "searchRadius": "30",
+    "filterOnInStock": false,
+    "filterOnStoreBopis": false
+  }
+
+emptySearchRadius:
+  {
+    "storeId": "7084",
+    "latitude": null,
+    "longitude": null,
+    "searchValue": "23704",
+    "searchRadius": "",
+    "filterOnInStock": false,
+    "filterOnStoreBopis": false
+  }
+
+emptySearchValue:
+  {
+    "storeId": "7084",
+    "latitude": null,
+    "longitude": null,
+    "searchValue": "",
+    "searchRadius": "30",
+    "filterOnInStock": false,
+    "filterOnStoreBopis": false
+  }
+
+noNearByStores:
+  {  
+      "storeId": "7084",
+      "latitude": null,
+      "longitude": null,
+      "searchValue": "23704",
+      "searchRadius": "1",
+      "filterOnInStock": true,
+      "filterOnStoreBopis": true
+  }

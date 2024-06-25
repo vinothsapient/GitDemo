@@ -1,0 +1,13 @@
+{
+  "host_uri": "https://apifdmobiledev.familydollar.com",
+  "base_path": "/coupons-exp-svc/v2/coupons/{id}",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "X-Auth-Token": "Mq5moTRfAmZqo3Jc4K7SYRTaCPTPI4JpOekAnAx80kL5NV5b0Z3DCzzop1cN9bDsIS7uDLXQl3yXeOfntSoFkA",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "ClipInmarCoupon"
+  }
+}

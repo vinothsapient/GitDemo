@@ -1,0 +1,9 @@
+{
+  "host_uri": "https://apifdmobiledev.familydollar.com",
+  "base_path": "/address-exp-svc/v1/address?search=washingtom",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "feature": "ecomm"
+  }
+}

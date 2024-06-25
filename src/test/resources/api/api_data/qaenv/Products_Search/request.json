@@ -1,0 +1,12 @@
+{
+  "host_uri": "https://apifdmobiletest.familydollar.com",
+  "base_path": "/product-exp-svc/v1/products/FD1400982/recommendations",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "ProductSearch"
+  }
+}

@@ -1,0 +1,407 @@
+validPaymentDetails:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+AmountTotalMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+AmountCurrencyMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+AmountSubTotalMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+AmountTaxMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": ""
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+ItemsNameMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+ItemsQuantityMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+ItemsPriceMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+ItemsTaxMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+ItemsCurrencyMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": ""
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+UrlsReturnMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "",
+      "cancel": "https://example.com/cancel"
+    }
+  }
+
+UrlsCancelMissing:
+  {
+    "payer": {
+      "paymentMethod": "paypal"
+    },
+    "transactions": [
+      {
+        "amount": {
+          "total": "15.01",
+          "currency": "USD",
+          "details": {
+            "subTotal": "15.00",
+            "tax": "0.01"
+          }
+        },
+        "itemList": {
+          "items": [
+            {
+              "name": "hat",
+              "quantity": "5",
+              "price": "3",
+              "tax": "0.01",
+              "currency": "USD"
+            }
+          ]
+        }
+      }
+    ],
+    "urls": {
+      "return": "https://example.com/return",
+      "cancel": ""
+    }
+  }

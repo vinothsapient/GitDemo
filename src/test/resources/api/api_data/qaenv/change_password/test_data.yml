@@ -1,0 +1,27 @@
+user_data:
+  {
+    "cid": "80000199406",
+    "token": "035f84405a40af9fe7b445d6a256db104eb94cdfc4dfee1550612942d28ad888",
+    "password": "Samehd51@123",
+    "newPassword": "Samehd51@123",
+    "shopperToken": "Mq5moTRfAmZqo3Jc4K7SYfn3uSDWbHQNEhGSYH6aMw4oXB2HHM7kM40FEzlCYzyYpSg7-2wQbytyYKLSliiuiA"
+  }
+
+user_data1:
+  {
+    "cid": "",
+    "shopperToken": "",
+    "token": "",
+    "password": "",
+    "newPassword": ""
+  }
+
+user_data2:
+  {
+    "cid": "60000004678erfger",
+    "shopperToken": "Mq5moTRfAmZqo3Jc4K7SYWvyvmickcCdh9AxWq6g4eXC_b_cABFCyRML75geeDF3jouVFi-I_3ld18JUYk5AYw",
+    "token": "cb3ea267010a95b26a672c7af6794c9fba8fcc0baa808e75938b27f1",
+    "password": "Testing@21222",
+    "newPassword": "Testing@212222"
+  }
+

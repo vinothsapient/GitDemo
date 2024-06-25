@@ -1,0 +1,29 @@
+
+user_data:
+  {
+        "lastName": "Gard",
+        "iamAssociateCode": "101111023"
+  }
+
+user_data1:
+  {
+          "lastName": "stg10",
+          "iamAssociateCode": "101111010"
+  }
+
+user_data2:
+  {
+    "lastName": "Gard",
+    "iamAssociateCode": " "
+  }
+
+user_data3:
+    {
+      "lastName": " ",
+      "iamAssociateCode": "500123456"
+    }
+
+user_data4:
+    {
+
+    }

@@ -1,0 +1,92 @@
+
+user_data:
+  {
+    "email": "email12@gmail.com",
+    "password": "Samehd5@123",
+    "phoneNumber": "9854673453",
+    "firstName": "Iron",
+    "lastName": "hills",
+    "termsApproved": true
+  }
+
+user_data1:
+  {
+    "email": "AUTO_KVPAz-test@yopmail.com",
+    "password": "Samehd5@123",
+    "phoneNumber": "8313268629",
+    "firstName": "Iron",
+    "lastName": "hills",
+    "termsApproved": true
+  }
+
+user_data2:
+  {
+      "email": "Bharathi128test.com",
+      "password": "Samehd5@123",
+      "phoneNumber": "9234321391",
+      "firstName": "Iron",
+      "lastName": "hills",
+      "termsApproved": true
+  }
+
+user_data3:
+  {
+      "email": "Bharathi1283@test.com",
+      "password": "Samehd5@123",
+      "phoneNumber": "923",
+      "firstName": "Iron",
+      "lastName": "hills",
+      "termsApproved": true
+  }
+
+user_data4:
+  {
+      "email": "Bharathi1283@test.com",
+      "password": "Sameh1",
+      "phoneNumber": "923",
+      "firstName": "Iron",
+      "lastName": "hills",
+      "termsApproved": true
+  }
+
+user_data5:
+  {
+      "email": "Bharathi1283@test.com",
+      "password": "Samehd5@123",
+      "phoneNumber": "9234321391",
+      "termsApproved": true
+  }
+
+user_data6:
+  {
+      "email": "Bharathi1283@test.com",
+      "phoneNumber": "9234321391",
+      "firstName": "Iron",
+      "lastName": "hills",
+      "termsApproved": true
+  }
+
+user_data7:
+  {
+      "password": "Samehd5@123",
+      "phoneNumber": "9234321391",
+      "firstName": "Iron",
+      "lastName": "hills",
+      "termsApproved": true
+  }
+
+user_data8:
+  {
+
+  }
+
+
+create_User:
+    {
+      "email": "email",
+      "password": "Samehd5@123",
+      "phoneNumber": "phoneNumber",
+      "firstName": "Iron",
+      "lastName": "hills",
+      "termsApproved": true
+    }

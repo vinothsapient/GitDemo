@@ -1,0 +1,12 @@
+validCartDetails:
+  {
+    "cart": {
+      "items": [
+        {
+          "productId": "FD907169",
+          "quantity": 10,
+          "deliveryOption": "bopis"
+        }
+      ]
+    }
+  }

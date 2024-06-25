@@ -1,0 +1,12 @@
+{
+  "host_uri": "https://apifdmobiletest.familydollar.com",
+  "base_path": "/content-exp-svc/v1/content/FD/mapp/screens/home/home.json",
+  "header": {
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "Content-Type": "application/json",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "Content_Experience"
+  }
+}

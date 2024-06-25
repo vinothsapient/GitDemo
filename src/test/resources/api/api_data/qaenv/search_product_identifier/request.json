@@ -1,0 +1,11 @@
+{
+  "host_uri": "https://family-dollar.staging.ipn-api.com",
+  "base_path": "/offer/v3/search_product_identifier",
+  "header": {
+    "Content-Type": "application/json",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "SearchProductIdentifier"
+  }
+}

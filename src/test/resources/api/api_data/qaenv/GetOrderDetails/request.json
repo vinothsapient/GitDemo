@@ -1,0 +1,12 @@
+{
+  "host_uri": "https://apifdmobiledev.familydollar.com",
+  "base_path": "/order-exp-svc/v1/orders/{orderId}",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "GetOrderDetails"
+  }
+}

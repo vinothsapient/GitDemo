@@ -1,0 +1,12 @@
+{
+  "host_uri": "https://apifdmobiletest.familydollar.com/store-exp-svc",
+  "base_path": "/v1/stores/11241",
+  "header": {
+    "Content-Type": "application/json",
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "GetStoreDetails"
+  }
+}

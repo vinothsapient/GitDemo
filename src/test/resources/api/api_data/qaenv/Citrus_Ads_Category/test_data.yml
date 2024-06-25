@@ -1,0 +1,10 @@
+user_data:
+  {
+      "bannerSlotIds": [
+          {
+              "slotId": "category-hero-banner",
+              "maxNumberOfAds": 1
+          }
+      ],
+      "category":"pet supplies"
+  }

@@ -1,0 +1,10 @@
+user_data:
+  {
+    "bannerSlotIds": [
+      {
+        "slotId": "hero-carousel-banner-app",
+        "maxNumberOfAds": 10
+      }
+
+    ]
+  }

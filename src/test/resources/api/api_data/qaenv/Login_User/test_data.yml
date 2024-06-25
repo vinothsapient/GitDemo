@@ -1,0 +1,11 @@
+ValidCredentials:
+  {
+    "email": "auto_api@yopmail.com",
+    "password": "Test@123"
+  }
+
+InvalidCredentials:
+  {
+      "email": "bharathshree3423122fsf@gmail.com",
+      "password": "Test@123"
+  }

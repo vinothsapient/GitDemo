@@ -1,0 +1,11 @@
+{
+  "host_uri": "https://auth.family-dollar.staging.ipn-api.com",
+  "base_path": "/v1/oauth/token",
+  "header": {
+    "Content-Type": "application/json",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "Bearer token"
+  }
+}

@@ -1,0 +1,128 @@
+# Maven
+# Build your Java project and run tests with Apache Maven.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger: none
+pr: none
+
+# YAML file in the main branch
+schedules:
+  - cron: '0 21 * * *'
+    displayName: Daily Test Run Android
+    branches:
+      include:
+        - main
+    always: true
+  - cron: '0 23 * * *'
+    displayName: Daily Test Run IOS
+    branches:
+      include:
+        - main
+    always: true 
+parameters:
+  - name: project
+    displayName: 'Project Name'
+    type: string
+    default: 'FDMobile'
+  - name: pipeline
+    displayName: 'Source code pipeline name'
+    type: string
+    default: 'STG - CD Pipeline'
+  - name: sourceCodeBranch
+    displayName: 'Source code branch to run automation test'
+    type: string
+    default: 'FD_Support'
+  - name: tags
+    displayName: 'Automation Tags'
+    type: string
+    default: '@regression'
+  - name: platform
+    displayName: 'Platform?'
+    type: string
+    default: 'android'
+    values:
+      - 'android'
+      - 'ios'
+variables:
+  - name: platform
+    ${{ if eq(variables['Build.CronSchedule.DisplayName'], 'Daily Test Run Android') }}:
+      value: 'android'
+    ${{ elseif eq(variables['Build.CronSchedule.DisplayName'], 'Daily Test Run IOS') }}:
+      value: 'ios'
+    ${{ else }}:
+      value: '${{parameters.platform}}'
+  - name: tags
+    ${{ if eq(variables['Build.CronSchedule.DisplayName'], 'Daily Run API Test') }}:
+      value: '@apitest'
+    ${{ else }}:
+      value: '${{parameters.tags}}'
+
+jobs:
+  - job: 'Execute_Automation_Tests'
+    timeoutInMinutes: 360
+
+    pool:
+      vmImage: ubuntu-latest
+
+    steps:
+      - task: DownloadBuildArtifacts@1
+        name: 'buildArtifact'
+        inputs:
+          buildType: 'specific'
+          project: '${{parameters.project}}'
+          pipeline: '${{parameters.pipeline}}'
+          specificBuildWithTriggering: true
+          buildVersionToDownload: 'latestFromBranch'
+          branchName: 'refs/heads/${{parameters.sourceCodeBranch}}'
+          downloadType: 'single'
+          artifactName: 'drop'
+          downloadPath: 'artifacts'
+        displayName: 'Download Latest Build Artifacts'
+
+      - script: |
+          mv artifacts/drop/android/*.apk src/test/resources/app/app.apk
+          mv artifacts/drop/ios/*.ipa src/test/resources/app/app.ipa
+          ls -lart 'src/test/resources/app/'
+        displayName: 'Copy & Rename App Package files'
+
+      - task: Maven@3
+        inputs:
+          mavenPomFile: 'pom.xml'
+          mavenOptions: '-Xmx3072m'
+          javaHomeOption: 'JDKVersion'
+          jdkVersionOption: '1.8'
+          jdkArchitectureOption: 'x64'
+          publishJUnitResults: true
+          testResultsFiles: '**/surefire-reports/TEST-*.xml'
+          goals: 'test -Dcucumber.filter.tags=${{parameters.tags}} -Dmobile.platform=$(platform) -Dproject=FD_MobileApp_STG -Dbuild=Azure_5.4.0.$(buildArtifact.BuildNumber)_Test$(Build.BuildId)'
+        displayName: 'Execute Tests'
+
+      - task: NodeTool@0
+        inputs:
+          versionSpec: '19.x'
+        displayName: 'Install Node.js'
+
+      - script: |
+          npm install -g allure-commandline --save-dev
+        displayName: 'Install allure commandline interface'
+
+      - script: |
+          allure generate target/surefire-reports -o target/allure-report
+        displayName: 'Generate allure report'
+
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish Cucumber Test Report'
+        inputs:
+          PathtoPublish: '$(Build.SourcesDirectory)/target/cucumber-report'
+          ArtifactName: 'test-report'
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish Allure Test Report'
+        inputs:
+          PathtoPublish: '$(Build.SourcesDirectory)/target/allure-report'
+          ArtifactName: 'test-report'
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish Allure Test Results'
+        inputs:
+          PathtoPublish: '$(Build.SourcesDirectory)/target/allure-results'
+          ArtifactName: 'test-report'

@@ -1,0 +1,13 @@
+{
+  "host_uri": "https://apifdmobiletest.familydollar.com",
+  "base_path": "/marketing-exp-svc/v1/platform/android/ads/brand-page/banners",
+  "header": {
+    "x-api-key": "4678ceb6-cab2-40a9-835c-5607e7f10b45",
+    "Content-Type": "application/json",
+    "sessionId": "12345",
+    "feature": "ecomm"
+  },
+  "request": {
+    "name": "BannersAdsCategory"
+  }
+}

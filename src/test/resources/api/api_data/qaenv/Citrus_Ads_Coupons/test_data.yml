@@ -1,0 +1,10 @@
+user_data:
+  {
+    "bannerSlotIds": [
+      {
+        "slotId": "coupon-navigation-banner",
+        "maxNumberOfAds": 1
+      }
+    ],
+    "category": "cake supplies and candles"
+  }
